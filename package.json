@@ -1,0 +1,20 @@
+{
+  "name": "code-challenge-erpxba",
+  "version": "1.0.0",
+  "description": "Reckon code challenge",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divadrax/code-challenge-erpxba.git"
+  },
+  "author": "David Scarratt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divadrax/code-challenge-erpxba/issues"
+  },
+  "homepage": "https://github.com/Divadrax/code-challenge-erpxba#readme"
+}
