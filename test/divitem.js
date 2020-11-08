@@ -1,4 +1,4 @@
-import divItem from '../divconcat.js';
+import divItem from '../divitem.js';
 import assert from 'assert';
 
 describe('divItem Tests', function () {

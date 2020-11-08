@@ -1,5 +1,5 @@
 import express from 'express';
-import divItem from './divconcat.js';
+import divItem from './divitem.js';
 import testapi from './testapi.js';
 
 const API_RANGEINFO = 'http://localhost:9998/rangeInfo'; // 'https://join.reckon.com/test1/rangeInfo';
