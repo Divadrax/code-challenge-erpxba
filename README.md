@@ -1,5 +1,5 @@
-# Code Challenge Solution
-This is my solution to the Reckon code challenge.  It uses Mocha, Express and Axios, so an `npm install` is needed on installation.
+# Coding Test Solution
+This is my solution to the Reckon coding test.  It uses Mocha, Express and Axios, so an `npm install` is needed on installation.
 
 To start the server:
 ```
