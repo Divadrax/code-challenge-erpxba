@@ -3,9 +3,10 @@ import finder from './finder.js';
 import testapi from './testapi.js';
 
 const NAME = 'David Scarratt';
-const API_TEXT = 'http://localhost:9998/textToSearch'; //'https://join.reckon.com/test2/textToSearch';
-const API_SUBTEXTS = 'http://localhost:9998/subTexts'; //'https://join.reckon.com/test2/subTexts';
-const API_RESULTS = 'http://localhost:9998/submitResults'; //'https://join.reckon.com/test2/submitResults';
+const API_BASE = 'https://join.reckon.com/test2'; // 'http://localhost:9998';
+const API_TEXT = `${API_BASE}/textToSearch`;
+const API_SUBTEXTS = `${API_BASE}/subTexts`;
+const API_RESULTS = `${API_BASE}/submitResults`;
 
 const test2 = express.Router();
 

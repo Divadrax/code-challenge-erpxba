@@ -2,8 +2,9 @@ import express from 'express';
 import divItem from './divitem.js';
 import testapi from './testapi.js';
 
-const API_RANGEINFO = 'http://localhost:9998/rangeInfo'; // 'https://join.reckon.com/test1/rangeInfo';
-const API_DIVISORINFO = 'http://localhost:9998/divisorInfo'; // 'https://join.reckon.com/test1/divisorInfo';
+const API_BASE = 'https://join.reckon.com/test1'; // 'http://localhost:9998';
+const API_RANGEINFO = `${API_BASE}/rangeInfo`;
+const API_DIVISORINFO = `${API_BASE}/divisorInfo`;
 
 const test1 = express.Router();
 
