@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Divadrax/code-challenge-erpxba/issues"
   },
-  "homepage": "https://github.com/Divadrax/code-challenge-erpxba#readme"
+  "homepage": "https://github.com/Divadrax/code-challenge-erpxba#readme",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
 }
