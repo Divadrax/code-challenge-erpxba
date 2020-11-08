@@ -12,6 +12,8 @@ Unit tests can be run using npm:
 npm test
 ```
 
+The code includes a test server mocking the test API endpoints.  It is checked in with the examples from the test specification, but I played with variations during development.
+
 ## Test 1
 The Test 1 solution can be run by hitting the root URI of the server: `http://localhost:<port>/`.
 

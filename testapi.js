@@ -1,3 +1,5 @@
+// This file provides wrapper functions around the Axios get() and post() methods to retry on failure.
+
 import axios from 'axios';
 
 function logStatus(r) {
