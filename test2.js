@@ -20,6 +20,7 @@ test2.get('/', async (req, rsp, next) => {
       text,
       results: subtexts.map(s => ({
         subtext: s,
+        // The search returns positions counting from 0, output wants from 1, so add 1
         result: search(s).map(n => n + 1).join(', ') || '<No Output>'
       }))
     });
